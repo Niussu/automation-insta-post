@@ -30,7 +30,6 @@ nav.find_element('xpath', '//*[@id="loginForm"]/div/div[3]').click()
 codigo_validacao = input("Digite o código que chegou: ")
 
 nav.find_element('xpath', '//*[@id="mount_0_0_4/"]/div/div/div[2]/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div[1]/div/label/input').send_keys(codigo_validacao)
-
 nav.find_element('xpath', '//*[@id="mount_0_0_4/"]/div/div/div[2]/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div[2]/button').click()
 
 sleep(30)
